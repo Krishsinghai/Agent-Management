@@ -1,0 +1,1 @@
+Use node installation commands for making it functional and make sure you add agents and then upload the csv file otherwise it may not work. Also make sure you have some data in formatted manner in CSV file otherwise it may not distribute . 
