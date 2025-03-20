@@ -1,0 +1,108 @@
+/* styles/addagent.css */
+.add-agent-form, .upload-csv-form, .login-form, .task-dashboard, .task-list {
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+/* styles/login.css */
+.login-form {
+    width: 100%;
+    max-width: 350px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+/* styles/roleselection.css */
+.role-selection-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.role-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.role-button.admin {
+    background-color: black;
+    color: white;
+}
+
+.role-button.agent {
+    background-color: gray;
+    color: white;
+}
+
+.role-button:hover {
+    opacity: 0.8;
+}
+
+/* styles/taskdashboard.css */
+.task-dashboard ul, .task-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task-dashboard li, .task-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.task-dashboard li:last-child, .task-list li:last-child {
+    border-bottom: none;
+}
