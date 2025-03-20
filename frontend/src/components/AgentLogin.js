@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../public/styles/login.css';
-import '../public/styles/style.css';
+// import '../public/styles/style.css';
 const AgentLogin = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');

@@ -1,42 +1,60 @@
-.add-agent-form, .upload-csv-form {
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #f9f9f9;
-}
-
-.add-agent-form h2, .upload-csv-form h2 {
+/* Container for Add Agent form */
+.add-agent-form {
+    width: 100%;
+    max-width: 499px;
+    margin: 50px auto;
+    padding: 56px;
+    border: 2px solid #000;
+    border-radius: 8px;
+    background: #fff;
     text-align: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form title */
+.add-agent-form h2 {
+    color: black;
     margin-bottom: 20px;
+    font-size: 24px;
 }
 
-.add-agent-form div, .upload-csv-form div {
+/* Form group styling */
+.add-agent-form form div {
     margin-bottom: 15px;
+    text-align: left;
 }
 
-.add-agent-form label, .upload-csv-form label {
+/* Labels */
+.add-agent-form label {
+    font-weight: bold;
+    color: #333;
     display: block;
     margin-bottom: 5px;
 }
 
-.add-agent-form input, .upload-csv-form input {
-    width: 100%;
-    padding: 8px;
-    box-sizing: border-box;
-}
-
-.add-agent-form button, .upload-csv-form button {
+/* Input fields */
+.add-agent-form input {
     width: 100%;
     padding: 10px;
-    background-color: #28a745;
-    color: white;
-    border: none;
+    border: 1px solid #000;
     border-radius: 5px;
-    cursor: pointer;
+    font-size: 14px;
 }
 
-.add-agent-form button:hover, .upload-csv-form button:hover {
-    background-color: #218838;
+/* Submit button */
+.add-agent-form button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+.add-agent-form button:hover {
+    background-color: gray;
 }

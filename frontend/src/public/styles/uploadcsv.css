@@ -1,0 +1,72 @@
+/* Container for Upload CSV */
+.uploadcsv-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Title Styling */
+.uploadcsv-container h2 {
+    color: black;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+/* File Input Container */
+.uploadcsv-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+/* File Input Styling */
+.uploadcsv-input input[type="file"] {
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Upload Button */
+.uploadcsv-button {
+    background-color: black;
+    color: white;
+    padding: 12px 25px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover Effect */
+.uploadcsv-button:hover {
+    background-color: gray;
+    transform: scale(1.05);
+}
+
+/* Success or Error Message */
+.uploadcsv-message {
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    color: green;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .uploadcsv-container {
+        width: 90%;
+        padding: 15px;
+    }
+    
+    .uploadcsv-button {
+        width: 100%;
+    }
+}

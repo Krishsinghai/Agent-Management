@@ -1,0 +1,33 @@
+.task-list {
+    width: 100%;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: #f8f8f8;
+    text-align: center;
+}
+
+h2 {
+    color: black;
+}
+
+.task-list ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+
+.task-list li {
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+.task-list li:last-child {
+    border-bottom: none;
+}
+
+.task-list li strong {
+    color: black;
+}

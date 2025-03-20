@@ -1,0 +1,63 @@
+/* Container for Role Selection */
+.role-selection-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Title styling */
+.role-selection-container h2 {
+    color: black;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Flexbox for buttons */
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+/* General button styling */
+.role-button {
+    padding: 15px 30px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    min-width: 150px;
+    text-transform: uppercase;
+}
+
+/* Add Agent button */
+.role-button.admin {
+    background-color: black;
+    color: white;
+}
+
+/* Upload CSV & Task List buttons */
+.role-button.agent {
+    background-color: gray;
+    color: white;
+}
+
+/* Button hover effect */
+.role-button:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .button-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .role-button {
+        width: 80%;
+    }
+}

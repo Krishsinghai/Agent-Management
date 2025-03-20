@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import '../public/styles/addagent.css';
-import '../public/styles/style.css';
+// import '../public/styles/style.css';
 const AddAgent = () => {
     const [formData, setFormData] = useState({
         name: '',

@@ -1,0 +1,34 @@
+.task-dashboard {
+    width: 100%;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+h2 {
+    color: black;
+}
+
+.task-dashboard ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+
+.task-dashboard li {
+    padding: 12px;
+    border-bottom: 1px solid #ccc;
+}
+
+.task-dashboard li:last-child {
+    border-bottom: none;
+}
+
+.task-dashboard li strong {
+    font-weight: bold;
+    color: black;
+}

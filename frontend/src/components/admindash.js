@@ -1,5 +1,5 @@
 import React from "react";
-import '../public/styles/style.css';
+import '../public/styles/bdia.css';
 import { useNavigate } from "react-router-dom";
 
 const RoleSelection = () => {

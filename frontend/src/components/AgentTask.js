@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import '../public/styles/style.css';
+import '../public/styles/tasks.css';
 const TaskDashboard = () => {
     const { agentId } = useParams(); // Get agentId from URL
     const [tasks, setTasks] = useState([]);
